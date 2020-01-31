@@ -32,7 +32,8 @@ function showSan() {
 closesan.addEventListener("click", hideSan);
 
 function hideSan() {
-  san.style.disply = "none";
+  san.style.display = "none";
+  console.log("hide san")
 }
 
 /// show and hide Chiefs facts
