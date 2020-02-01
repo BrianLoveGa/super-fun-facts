@@ -1,6 +1,16 @@
 html {
   background-color: black;
 }
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+HK|Roboto&display=swap");
+
+h1,
+div {
+  font-family: "Roboto", sans-serif;
+}
+
+h3 {
+  font-family: "Noto Sans HK", sans-serif;
+}
 
 .wholepage {
   background-color: white;
@@ -23,7 +33,7 @@ html {
 .space {
   height: 30px;
 }
-.frame{
+.frame {
   text-align: center;
 }
 .wolf,
@@ -32,7 +42,6 @@ html {
   height: auto;
 }
 
-
-.mid{
+.mid {
   text-align: center;
 }
