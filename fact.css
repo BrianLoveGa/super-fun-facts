@@ -1,4 +1,4 @@
-html{
+html {
   background-color: black;
 }
 
@@ -11,11 +11,26 @@ html{
 
 .general,
 .sanfran,
-.kc {
+.kc,
+.sanMascot,
+.kanMascot {
   display: none;
   padding: 5px;
 }
 
 .space {
   height: 30px;
+}
+.frame{
+  text-align: center;
+}
+.wolf,
+.sam {
+  max-width: 35%;
+  height: auto;
+}
+
+
+.mid{
+  text-align: center;
 }

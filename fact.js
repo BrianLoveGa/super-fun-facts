@@ -16,6 +16,10 @@ function switchTheme() {
     san.style.color = "white";
     kc.style.backgroundColor = "rgb(83, 82, 82)";
     kc.style.color = "white";
+    sanmascot.style.backgroundColor = "rgb(83, 82, 82)";
+    sanmascot.style.color = "white";
+    kcmascot.style.backgroundColor = "rgb(83, 82, 82)";
+    kcmascot.style.color = "white";
   } else {
     theme.style.backgroundColor = "white";
     theme.style.color = "black";
@@ -25,6 +29,10 @@ function switchTheme() {
     san.style.color = "black";
     kc.style.backgroundColor = "lightblue";
     kc.style.color = "black";
+    sanmascot.style.backgroundColor = "lightblue";
+    sanmascot.style.color = "black";
+    kcmascot.style.backgroundColor = "lightblue";
+    kcmascot.style.color = "black";
   }
 }
 
@@ -82,4 +90,41 @@ closeKan.addEventListener("click", hideKan);
 
 function hideKan() {
   kc.style.display = "none";
+}
+
+///show and hide mascot info for Kansas City
+//show it first
+let wolf = document.querySelector(".wolf");
+wolf.addEventListener("click", showWolf);
+
+let kcmascot = document.querySelector(".kanMascot");
+
+function showWolf() {
+  kcmascot.style.display = "block";
+}
+
+///now hide it
+let closeKanMascot = document.querySelector(".closeKanMascot");
+closeKanMascot.addEventListener("click", hideKanMascot);
+
+function hideKanMascot() {
+  kcmascot.style.display = "none";
+}
+
+/// show hide mascot info for SanFrancisco
+
+let sam = document.querySelector(".sam");
+sam.addEventListener("click", showSam);
+
+let sanmascot = document.querySelector(".sanMascot");
+
+function showSam() {
+  sanmascot.style.display = "block";
+}
+
+let closeSanMascot = document.querySelector(".closeSanMascot");
+closeSanMascot.addEventListener("click", hideSanMascot);
+
+function hideSanMascot() {
+  sanmascot.style.display = "none";
 }
