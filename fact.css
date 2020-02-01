@@ -16,6 +16,8 @@ html {
 .kanMascot {
   display: none;
   padding: 5px;
+  background-color: lightblue;
+  border-radius: 10px;
 }
 
 .space {
