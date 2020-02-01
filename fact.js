@@ -1,3 +1,21 @@
+/// color theme switch dark mode light mode
+
+let theme = document.querySelector(".wholepage");
+
+let modeSwitch = document.querySelector(".dark");
+
+modeSwitch.addEventListener("click", switchTheme);
+
+function switchTheme() {
+  if (theme.style.backgroundColor === "white") {
+    theme.style.backgroundColor = "black";
+    theme.style.color = "white";
+  } else {
+    theme.style.backgroundColor = "white";
+    theme.style.color = "black";
+  }
+}
+
 /// show and hide general facts
 
 let info = document.querySelector(".general");
@@ -33,7 +51,7 @@ closesan.addEventListener("click", hideSan);
 
 function hideSan() {
   san.style.display = "none";
-  console.log("hide san")
+  console.log("hide san");
 }
 
 /// show and hide Chiefs facts
