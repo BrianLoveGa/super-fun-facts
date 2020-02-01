@@ -10,9 +10,21 @@ function switchTheme() {
   if (theme.style.backgroundColor === "white") {
     theme.style.backgroundColor = "black";
     theme.style.color = "white";
+    info.style.backgroundColor = "rgb(83, 82, 82)";
+    info.style.color = "white";
+    san.style.backgroundColor = "rgb(83, 82, 82)";
+    san.style.color = "white";
+    kc.style.backgroundColor = "rgb(83, 82, 82)";
+    kc.style.color = "white";
   } else {
     theme.style.backgroundColor = "white";
     theme.style.color = "black";
+    info.style.backgroundColor = "lightblue";
+    info.style.color = "black";
+    san.style.backgroundColor = "lightblue";
+    san.style.color = "black";
+    kc.style.backgroundColor = "lightblue";
+    kc.style.color = "black";
   }
 }
 
