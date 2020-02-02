@@ -36,6 +36,13 @@ h3 {
 .frame {
   text-align: center;
 }
+
+.football {
+  max-width: 80%;
+  height: auto;
+  text-align: center;
+  margin: 8%;
+}
 .wolf,
 .sam {
   max-width: 35%;
